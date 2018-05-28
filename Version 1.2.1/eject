@@ -1,5 +1,5 @@
-shell.run("delete","install")
-shell.run("delete","eject")
+fs.delete("install")
+fs.delete("eject")
 disk.eject("top")
 disk.eject("bottom")
 disk.eject("left")
